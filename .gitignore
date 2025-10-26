@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django
+*.log
+staticfiles/
+media/
+request_logs.txt
+*.sqlite3
+db.sqlite3
+*.pid
+*.py[cod]
+
+# Migrations (optional — if you want to track them, remove this)
+# */migrations/
+# !*/migrations/__init__.py
+
+# Environment variables
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pytest / coverage
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
